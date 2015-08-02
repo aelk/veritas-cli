@@ -6,13 +6,15 @@ veritas is a plagiarism detection tool which finds the number of common sequence
 
 Usage
 ------
-1) 'git clone https://github.com/aelk/veritas-cli'
+1) `git clone https://github.com/aelk/veritas-cli`
 
-2) Compile using 'g++ -Wall -std=c++14 main.cpp -o veritas -lm utils.cpp -lboost_system -lboost_filesystem'
+2) `cd veritas-cli`
 
-3) Run './veritas /path/to/directory/'
+3) `g++ -Wall -std=c++14 main.cpp -o veritas -lm utils.cpp -lboost_system -lboost_filesystem`
 
-4) For help, run './veritas help'
+3) `./veritas /path/to/directory/`
+
+4) For help, run `./veritas help`
 
 Options
 -------
