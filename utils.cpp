@@ -116,7 +116,7 @@ void show_results(std::map<string_pair, unsigned int> commmon_seqs,
     }
 
     if (num_writes == 0) {
-        std::cout << "No two files had " << threshold << "or more "
+        std::cout << "No two files had " << threshold << "or more " <<
 			  seq_len << "-word sequences in common." << std::endl;
     }
 }
