@@ -116,8 +116,8 @@ void show_results(std::map<string_pair, unsigned int> commmon_seqs,
     }
 
     if (num_writes == 0) {
-        std::cout << "No two files had more than " << threshold <<
-                  " " << seq_len << "-word sequences in common." << std::endl;
+        std::cout << "No two files had " << threshold << "or more "
+			  seq_len << "-word sequences in common." << std::endl;
     }
 }
 
@@ -126,7 +126,7 @@ void display_help(bool help)
     std::cout << "Usage: ./veritas <path> [optional:] <sequence length> <threshold>" << std::endl;
     if (help) {
     std::cout << "Default for optional parameters: ";
-        std::cout << "sequence length = " << DEFAULT_SEQ_LENGTH << " and threshold = 0." << std::endl;
+        std::cout << "sequence length = " << DEFAULT_SEQ_LENGTH << " and threshold = " << DEFAULT_THRESHOLD << "." << std::endl;
         std::cout << std::endl << "Example: ./veritas ~/Desktop/some_papers 5 100" << std::endl;
         std::cout << "This displays each pair of papers in the directory ";
         std::cout << "some_papers which have 100 or more 5-word sequences in common." << std::endl;

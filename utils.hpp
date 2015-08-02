@@ -13,7 +13,7 @@ typedef std::vector<std::string> string_list;
 typedef std::pair<std::string, std::string> string_pair;
 
 const int DEFAULT_SEQ_LENGTH = 6;
-const int DEFAULT_THRESHOLD = 0;
+const int DEFAULT_THRESHOLD = 1;
 
 template<typename A, typename B>
 std::pair<B,A> flip_pair(const std::pair<A,B> &p);
