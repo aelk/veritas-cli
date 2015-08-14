@@ -2,7 +2,7 @@ veritas (command line interface)
 ================================
 Description
 ------
-veritas is a plagiarism detection tool which finds the number of common sequences between every pair of files in a given directory.
+veritas is a plagiarism detection tool which finds the number of common sequences between every pair of files in a given directory. There is also a GUI version which can be found [here](https://github.com/aelk/veritas).
 
 Usage
 ------
